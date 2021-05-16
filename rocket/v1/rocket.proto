@@ -5,6 +5,8 @@ package rocket;
 // Rocket represents the model of our rocket
 message Rocket {
     string id = 1;
+    string name = 2;
+    string type = 3;
 }
 
 // RocketService - defines what endpoints we'll be exposing
